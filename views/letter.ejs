@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Alphabet</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+</head>
+
+<body>
+
+  <h1 id="title">Alphabet</h1>
+  <div class="set">
+    <button class="big_tile"> <%= assignedLetter %> </a></button>
+    <div class="soundIcons">
+      <button class="soundIcon"><i class="fa-solid fa-a fa-2xl"></i></button>
+      <button class="soundIcon" onclick="playSound()"><i class="fa-solid fa-volume-high fa-2xl"></i></button>
+    </div>
+      
+  </div>
+
+  <footer>
+    <div class="set">
+      <form action="/home" method="post">
+      <button class="homeButton" type="submit">Main Page</a></button>
+      </form>
+    </div>
+  </footer>
+  <script src="https://kit.fontawesome.com/c409f0a65a.js" crossorigin="anonymous"></script>
+  <script src="app.js"></script>
+
+  <script>
+    function playSound() {
+      console.log("playing")
+      let au = new Audio("/sounds/<%= assignedLetter %>.mp3");
+      au.play();
+    }
+  </script>
+</body>
+
+</html>

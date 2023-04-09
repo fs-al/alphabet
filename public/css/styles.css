@@ -1,0 +1,127 @@
+body {
+    text-align: center;
+    background-color: #283149;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  }
+  
+  footer {
+    color: #DBEDF3;
+    font-family: sans-serif;
+  }
+  
+  .set {
+    margin: 0 auto;
+  }
+  
+  
+  .red {
+    color: red;
+  }
+
+  a, a:link, a:visited {
+    text-decoration: none;
+    color: brown;
+  }
+  
+  .tile {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 5rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: brown;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 1px;
+    background-color: white;
+    background-image: url("/images/wood-bg.png");
+  }
+
+  .big_tile {
+    outline: none;
+    border: 10px solid #404B69;
+    font-size: 15rem;
+    font-family: 'Arvo', cursive;
+    line-height: 2;
+    font-weight: 900;
+    color: brown;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 1px;
+    background-color: white;
+    background-image: url("/images/wood-bg.png");
+  }
+  
+  footer {
+    margin: 50px;
+    font-size: 2rem;
+    font-family: 'Arvo', cursive;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+  }
+
+  .homeButton {
+    background-color: #DBEDF3;
+    color: brown;
+    font-size: 3rem;
+    outline: none;
+    border: 10px solid #404B69;
+    font-family: 'Arvo', cursive;
+    line-height: 1;
+    font-weight: 900;
+    color: brown;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 15px;
+    display: inline;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    margin: 1px;
+    background-color: white;
+  }
+
+  .soundIcons {
+    margin-top: 2%;
+  }
+
+  .soundIcon {
+    color: brown;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 50px;
+  }
+
+  .soundIcon1 {  
+    position: fixed;
+    top: 300px;
+    right: 550px;
+      
+  }
+
+  .soundIcon2 {
+    position: fixed;
+    top: 500px;
+    right: 550px;
+}
+
+.soundIcon:visited, .soundIcon:visited {
+    text-decoration: none;
+    color: brown;
+  }
