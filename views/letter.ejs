@@ -14,8 +14,8 @@
   <div class="set">
     <button class="big_tile"> <%= assignedLetter %> </a></button>
     <div class="soundIcons">
-      <button class="soundIcon"><i class="fa-solid fa-a fa-2xl"></i></button>
-      <button class="soundIcon" onclick="playSound()"><i class="fa-solid fa-volume-high fa-2xl"></i></button>
+      <button class="soundIcon" onclick="playLetterName()"><i class="fa-solid fa-a fa-2xl"></i></button>
+      <button class="soundIcon" onclick="playLetterSound()"><i class="fa-solid fa-volume-high fa-2xl"></i></button>
     </div>
       
   </div>
@@ -31,10 +31,14 @@
   <script src="app.js"></script>
 
   <script>
-    function playSound() {
-      console.log("playing")
-      let au = new Audio("/sounds/<%= assignedLetter %>.mp3");
-      au.play();
+    function playLetterName() {
+      let audio = new Audio("/sounds/letterName/<%= assignedLetter %>.mp3");
+      audio.play();
+    }
+
+    function playLetterSound() {
+      let audio = new Audio("/sounds/letterSound/<%= assignedLetter %>.mp3");
+      audio.play();
     }
   </script>
 </body>
